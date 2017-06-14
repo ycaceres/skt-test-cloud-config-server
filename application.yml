@@ -1,0 +1,14 @@
+management:
+  security:
+    enabled: false
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HOME}/IdeaProjects/configs
+
+server:
+  port: 8888
+
